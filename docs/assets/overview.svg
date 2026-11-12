@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="DSH Team Budget connection architecture">
+<rect width="1200" height="460" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#0f1115">
+<text x="48" y="68" font-size="28" font-weight="500">DSH Team Budget</text>
+<text x="48" y="104" font-size="16" fill="#61666b">DeepSeek Harness · self-hosted API key and budget management</text>
+<g fill="none" stroke="#e5e7eb"><rect x="48" y="164" width="302" height="174" rx="16"/><rect x="449" y="164" width="302" height="174" rx="16"/><rect x="850" y="164" width="302" height="174" rx="16"/></g>
+<text x="76" y="207" font-size="19" font-weight="500">Member client</text><text x="76" y="245" font-size="15" fill="#61666b">DSH / compatible API client</text><text x="76" y="276" font-size="15" fill="#61666b">Managed key + gateway URL</text><text x="76" y="307" font-size="15" fill="#61666b">No member plugin</text>
+<text x="477" y="207" font-size="19" font-weight="500">Your gateway</text><text x="477" y="245" font-size="15" fill="#61666b">Budget and model access checks</text><text x="477" y="276" font-size="15" fill="#61666b">Usage receipts and reservations</text><text x="477" y="307" font-size="15" fill="#61666b">Administrator panel in DSH</text>
+<text x="878" y="207" font-size="19" font-weight="500">DeepSeek API</text><text x="878" y="245" font-size="15" fill="#61666b">Your official provider key</text><text x="878" y="276" font-size="15" fill="#61666b">Model responses and token usage</text><text x="878" y="307" font-size="15" fill="#61666b">Official account billing</text>
+<g fill="none" stroke="#4176e6" stroke-width="2"><path d="M366 251h65m-8-6 8 6-8 6"/><path d="M767 251h65m-8-6 8 6-8 6"/></g>
+<text x="48" y="403" font-size="13" fill="#81858c">Architecture diagram · no account data · community project, not affiliated with DeepSeek</text>
+</g></svg>

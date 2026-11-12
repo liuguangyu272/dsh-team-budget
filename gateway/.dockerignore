@@ -1,0 +1,7 @@
+tests
+node_modules
+data
+work
+*.sqlite*
+*.key
+admin-token.txt

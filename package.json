@@ -1,0 +1,67 @@
+{
+  "name": "dsh-team-budget",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "DeepSeek managed API keys, monthly budgets and model access",
+  "engines": {
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "dashboard.css",
+    "dashboard-components.js",
+    "LICENSE",
+    "README.en.md",
+    "docs/SETUP.md",
+    "docs/assets/overview.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  },
+  "license": "MIT",
+  "author": "liuguangyu272",
+  "homepage": "https://github.com/liuguangyu272/dsh-team-budget#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuguangyu272/dsh-team-budget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuguangyu272/dsh-team-budget/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "api-gateway",
+    "team-budget",
+    "usage-analytics",
+    "api-key-management"
+  ],
+  "scripts": {
+    "test": "node --no-warnings --test gateway/tests/*.test.js tests/*.test.js"
+  }
+}

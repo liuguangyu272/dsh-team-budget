@@ -1,0 +1,4 @@
+- insert:
+    - id: team-budget
+      name: 'dsh-team-budget'
+      config: {}
