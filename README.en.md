@@ -53,3 +53,5 @@ npm pack --dry-run
 [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [MIT license](LICENSE)
 
 Community project. Not affiliated with or endorsed by DeepSeek.
+
+Optional custom plugin index: `https://raw.githubusercontent.com/liuguangyu272/dsh-team-budget/main/plugin-index.json`. This project-hosted index is not a third-party directory endorsement.

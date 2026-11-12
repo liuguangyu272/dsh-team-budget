@@ -61,6 +61,14 @@ docker compose exec gateway cat /data/admin-token.txt
 dsh plugin --profile desktop add ./dsh-team-budget-0.1.0.tgz
 ```
 
+也可在 DSH 的自定义插件索引中添加：
+
+```text
+https://raw.githubusercontent.com/liuguangyu272/dsh-team-budget/main/plugin-index.json
+```
+
+这是本项目自托管的索引，并不代表第三方目录已审核收录。
+
 从源码安装：
 
 ```sh

@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Team Budget",
+    "zh": "DSH 团队预算"
+  },
+  "plugins": [
+    {
+      "name": "dsh-team-budget",
+      "title": {
+        "en": "DSH Team Budget",
+        "zh": "API 用量与团队预算"
+      },
+      "description": {
+        "en": "Managed DeepSeek member keys, usage analytics, spending budgets and model access in a native administrator panel.",
+        "zh": "DeepSeek 成员密钥、用量统计、预算限额和模型权限的原生管理员面板。"
+      },
+      "icon": "icon.svg",
+      "author": "liuguangyu272",
+      "homepage": "https://github.com/liuguangyu272/dsh-team-budget#readme",
+      "repository": {
+        "url": "https://github.com/liuguangyu272/dsh-team-budget"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794469657,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liuguangyu272/dsh-team-budget",
+            "commit": "e259107d0556e060d9a3f64ef68900fb49260e73"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
